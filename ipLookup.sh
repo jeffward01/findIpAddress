@@ -27,8 +27,8 @@ areaCode=$(echo $holder | cut -d "," -f 9)
 echo IP Address: $my_ipAddy
 echo  $shortLocation
 echo
-echo Latitude: "$metroCode" 
-echo Longitude: "$areaCode"
+echo Latitude: "$lat" 
+echo Longitude: "$long"
 echo
 echo Metro Code: "$metroCode"
 echo Area Code: "$areaCode"
